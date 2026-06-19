@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(9, 1, 54);
+
+}
+.main{
+    padding: 20px;
+    border: 1px solid black;
+    background-color:rgba(255, 255, 255, 0.993);
+    width: 400px;
+    height: auto;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 8px ;
+    border-color: rgba(117, 169, 182, 0.644);
+    box-shadow: 0px 4px 6px rgb(0,0,0,1);
+    transition: 0.3s ease;
+}
+
+.main:hover{
+    transform: translateY(-4px);
+}
+
+.head{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight:550;
+    letter-spacing: 0.5px;
+    color: rgb(8, 8, 119);
+}
+
+.Container{
+    margin: 10px;
+    padding-top: 10px;
+
+}
+
+
+.options{
+    margin: 10px;
+    padding: 15px;    
+}
+
+.options li{
+    /* width: 200px; */
+    padding:10px 5px ;
+    border: 1px ;
+    border-color:rgba(132, 191, 206, 0.644) ;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(212, 230, 247, 0.644);
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.3);
+    
+}
+
+.options li:hover{
+    background-color: rgba(175, 213, 250, 0.644);
+    cursor: pointer;
+}
+
+
+
+.q1{
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.btn{
+    margin: 10px;
+    margin-top: 0px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn button{
+    margin: 10px;
+    padding:10px 15px;
+    font-size: 18px;
+    border: 1px solid rgb(76, 48, 236);
+    border-radius: 10px;
+    outline:none;
+    background-color: rgb(105, 82, 235);
+    color: white;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.5);
+}
+
+.btn button:hover{
+    background-color: rgb(87, 61, 236);
+    transform: translateY(-2px);
+
+}
+
+.submit{
+    display: none;
+}
+
+/* RESULT SCREEN */
+
+.result-container{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.result-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(8, 8, 119);
+    margin-bottom: 20px;
+}
+
+
+
+.score-circle{
+    width: 130px;
+    height: 130px;
+    margin: 15px auto;
+    border-radius: 50%;
+    border: 8px solid rgb(105, 82, 235);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(8, 8, 119);
+
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+
+
+
+.performance-text{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(34, 34, 34);
+}
+
+
+
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.stat-card{
+    flex: 1;
+    padding: 12px;
+
+    background-color: rgba(212, 230, 247, 0.644);
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.15);
+}
+
+.stat-card h3{
+    color: rgb(8, 8, 119);
+    margin-bottom: 5px;
+}
+
+.stat-card p{
+    font-size: 14px;
+}
+
+
+.progress-section{
+    margin-top: 25px;
+    text-align: left;
+}
+
+.progress-section p{
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 14px;
+
+    background-color: rgba(212, 230, 247, 0.644);
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill{
+    height: 100%;
+    background-color: rgb(105, 82, 235);
+    transition: 0.4s ease;
+}
+
+
+.score-summary{
+    margin-top: 25px;
+    font-size: 17px;
+    color: rgb(30, 30, 30);
+}
+
+
+
+.result-buttons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.result-buttons button{
+
+    padding: 10px 15px;
+    font-size: 15px;
+
+    border: 1px solid rgb(76, 48, 236);
+    border-radius: 10px;
+    outline: none;
+
+    background-color: rgb(105, 82, 235);
+    color: white;
+
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+
+    cursor: pointer;
+}
+
+.result-buttons button:hover{
+    background-color: rgb(87, 61, 236);
+    transform: translateY(-2px);
+}
