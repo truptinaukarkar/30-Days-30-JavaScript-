@@ -9,3 +9,7 @@ https://weatherapp-phi-coral.vercel.app/
 Day 2: Quiz App(Questions are hardcoded)
 
 https://quizapp-sigma-three.vercel.app/
+
+Day 3: QR Code Generator(API)
+
+https://qrcodegenerator-self.vercel.app/
